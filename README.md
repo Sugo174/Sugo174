@@ -21,45 +21,51 @@ My industrial experience includes:
 
 ## Featured Projects
 
+### [HLS Key Control Utility](https://github.com/Sugo174/HLS-Key-Control-Utility)
+
+Desktop application for managing authentication passwords during electricity meter personalization and servicing.
+
+- Writes and verifies HLS passwords on meters over DLMS/COSEM using an optical probe.
+- Checks the meter's authentication state after an interrupted write or reset.
+- Stores encrypted HLS values, password history, and an operation journal in a shared SQL Server registry.
+- Exports confirmed personalization batches to Excel.
+
+**Technology:** Python, PySide6, Gurux DLMS, SQL Server, pyodbc, cryptography, XlsxWriter
+
 ### [Smart Meter Configurator](https://github.com/Sugo174/Smart-electric-meter-configurator)
 
-Desktop application for configuring and diagnosing smart electricity meters.
+Desktop application for configuring and diagnosing EMIS-ELECTRA 977 DC electricity meters over RS-485.
 
-- Automatic detection of Modbus address, baud rate, and parity
-- Real-time electrical measurement monitoring
-- Smart meter configuration over RS-485
-- English, Russian, and Simplified Chinese interfaces
-- Ready-to-use Windows release
-- Tested with real EMIS-ELECTRA 977 DC meters
+- Automatically detects the Modbus address, baud rate, and parity.
+- Displays live measurements and lets operators configure daily tariff schedules and pulse output settings.
+- Fills in device information from a scanned serial number and synchronizes the meter clock with the PC.
+- Reads back written settings to verify that they were applied.
+- Provides portable builds for Windows 7 and Windows 10/11, with automated packaging and update checks through GitHub Releases.
+- Tested with real single-channel and dual-channel meters.
 
-**Technology:** Python, Tkinter, Modbus RTU, RS-485
+**Built with** Python, Tkinter, MinimalModbus, pySerial, and PyInstaller.
 
 ### [Telegram Push Notification Bot](https://github.com/Sugo174/Telegram-Push-Bot-For-Smart-Electric-Meter)
 
-Monitoring system that receives PUSH events from smart meters and delivers notifications through Telegram.
+Receives events from electricity meters over TCP and delivers notifications to subscribers in Telegram.
 
-- Asynchronous TCP server for incoming meter events
-- Event parsing and SQLite storage
-- Individual meter and access-group connections
-- Notification archive and multilingual interface
-- Administrative group management utility
-- SOCKS5 proxy support
+- Handles packets split across TCP reads and multiple packets received in a single read.
+- Decodes meter event flags, stores events in SQLite, and marks notifications as sent only after Telegram confirms delivery.
+- Supports subscriptions to individual meters and groups, with a separate utility for managing group access.
+- Provides a notification archive and a Telegram interface in Russian, English, and Simplified Chinese.
 
-**Technology:** Python, asyncio, aiohttp, SQLite, Telegram Bot API
+**Built with** Python, asyncio, aiohttp, aiosqlite, SQLite, and the Telegram Bot API.
 
 ### [Cat Home Tasker Bot](https://github.com/Sugo174/Cat-Home-Tasker-TGBot)
 
-Telegram bot that turns household chores into a shared game.
+Telegram bot for sharing household chores and tracking progress through experience points and levels.
 
-- Shared households and invitation codes
-- Standard and custom tasks
-- Experience points and user levels
-- User profiles and task history
-- Russian and English interfaces
-- Administrative panel
-- Modular application structure
+- Lets users create a household or join one with an invitation code.
+- Supports standard and custom tasks, user profiles, and task completion history.
+- Provides an administration panel for managing households and users.
+- Stores household data in SQLite and supports Russian and English interfaces.
 
-**Technology:** Python, aiogram 3, SQLite, FSM, python-dotenv
+**Built with** Python, aiogram 3, and SQLite.
 
 ## Education
 
@@ -76,28 +82,18 @@ My part of the project was a mathematical model of an induction motor designed f
 
 ## Technical Skills
 
-- **Programming:** Python
-- **Telegram:** aiogram, Telegram Bot API
-- **Databases:** SQLite, aiosqlite
-- **Networking:** asyncio, aiohttp, TCP/IP, SOCKS5
-- **Industrial communication:** Modbus RTU, RS-485
-- **Industrial systems:** electric drives, smart meters, instrumentation, control cabinets
-- **Desktop interfaces:** Tkinter, sv_ttk
-- **Engineering tools:** MATLAB
-- **Development tools:** Git, GitHub, VS Code
-- **Practices:** modular architecture, localization, environment configuration, documentation, and release management
+- **Python development** — desktop applications with PySide6 and Tkinter, asynchronous services with asyncio and aiohttp, and Telegram bots with aiogram and the Telegram Bot API.
+- **Industrial communication** — Modbus RTU over RS-485 and DLMS/COSEM over optical probes using Gurux DLMS.
+- **Databases and reporting** — SQL Server via ODBC and pyodbc, SQLite and aiosqlite, and Excel exports with XlsxWriter.
+- **Security and diagnostics** — credential encryption with `cryptography`, operation logging, and verification of meter settings after writes.
+- **Testing and releases** — automated tests with unittest and GitHub Actions, testing with physical meters, and portable Windows builds with PyInstaller.
+- **Engineering** — electric drives, industrial instrumentation, control cabinet design, and mathematical modelling in MATLAB.
 
 ## Professional Interests
 
-I am interested in remote Software Engineer and Automation Software Engineer positions. I am also open to adjacent engineering fields where software is used to solve practical technical problems.
+I am open to remote roles in software engineering and industrial automation, especially work involving equipment communication, diagnostics, or software for commissioning and service teams.
 
-I am currently improving my knowledge of:
-
-- Automated testing
-- Application architecture
-- Git workflows
-- Error handling and logging
-- Deployment and continuous integration
+I build and maintain Python tools that connect to physical devices, process operational data, and help operators verify the results of their work. I am continuing to improve how I test device workflows, diagnose communication failures, and package and document releases.
 
 ## Languages
 
