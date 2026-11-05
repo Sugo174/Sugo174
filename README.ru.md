@@ -82,7 +82,9 @@ Telegram-бот для совместного ведения домашних д
 ## Технические навыки
 
 - **Разработка на Python** — настольные приложения на PySide6 и Tkinter, асинхронные сервисы на asyncio и aiohttp, Telegram-боты на aiogram и Telegram Bot API.
-- **Промышленные протоколы** — Modbus RTU по RS-485 и DLMS/COSEM через оптическую головку с Gurux DLMS.
+- **Промышленные протоколы: Modbus RTU/TCP, DLMS/COSEM, СПОДЭС, HART, MQTT.
+- **Проводные интерфейсы и технологии связи: RS-485, PLC (Power Line Communication).
+- **Беспроводные технологии связи: Bluetooth Low Energy (BLE), Wi-Fi (IEEE 802.11), Zigbee, RF 868 МГц, NB-IoT, GSM.
 - **Базы данных и отчётность** — SQL Server через ODBC и pyodbc, SQLite и aiosqlite, выгрузка в Excel через XlsxWriter.
 - **Безопасность и диагностика** — шифрование паролей HLS с помощью `cryptography`, журналирование операций и проверка настроек счётчика повторным чтением после записи.
 - **Тестирование и выпуск** — автоматические тесты на unittest и GitHub Actions, проверки на реальных счётчиках и переносимые сборки Windows с PyInstaller.
