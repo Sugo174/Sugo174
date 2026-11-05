@@ -77,7 +77,7 @@ Telegram bot for sharing household chores and tracking progress through experien
 
 - **Master's degree in Automated Electric Drive**, 2021
 - **Higher education in Automated Electric Drive**, 2018
-- **Additional qualification:** English Translator in Technical Communication, 2018
+- **Additional qualification:** English–Russian Translator in Technical Communication
 - English proficiency assessed at **CEFR C2** through university testing
 
 My master's project was developed as part of a four-person Industrial Internet of Things project. The system used equipment tags and augmented-reality glasses to display live electric motor parameters.
