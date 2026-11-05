@@ -87,7 +87,9 @@ My part of the project was a mathematical model of an induction motor designed f
 ## Technical Skills
 
 - **Python development** — desktop applications with PySide6 and Tkinter, asynchronous services with asyncio and aiohttp, and Telegram bots with aiogram and the Telegram Bot API.
-- **Industrial communication** — Modbus RTU over RS-485 and DLMS/COSEM over optical probes using Gurux DLMS.
+- **Industrial and IoT protocols: Modbus RTU/TCP, DLMS/COSEM, SPODES, HART, MQTT.
+- **Wired interfaces and communication technologies: RS-485, PLC (Power Line Communication).
+- **Wireless communication technologies: Bluetooth Low Energy (BLE), Wi-Fi (IEEE 802.11), Zigbee, 868 MHz RF, NB-IoT, GSM.
 - **Databases and reporting** — SQL Server via ODBC and pyodbc, SQLite and aiosqlite, and Excel exports with XlsxWriter.
 - **Security and diagnostics** — credential encryption with `cryptography`, operation logging, and verification of meter settings after writes.
 - **Testing and releases** — automated tests with unittest and GitHub Actions, testing with physical meters, and portable Windows builds with PyInstaller.
