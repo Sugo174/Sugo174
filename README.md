@@ -14,12 +14,12 @@ I currently work as a Software Engineer at EMIS, where I focus on the software s
 
 My industrial experience includes:
 
-- Five years in industrial automation at NPO Elektromashina
-- Design of custom control cabinets for industrial enterprises at Techno-Center
-- Work with flowmeters, pressure sensors, level measurement equipment, and smart electricity meters at EMIS
-- Development of control and monitoring solutions using OWEN equipment
-- Contribution to EMIS-SYSTEM 500, a commercial system designed to operate with level measurement equipment
-- Software development and technical support for smart electricity meters
+- Five years in industrial automation at NPO Elektromashina.
+- Design of custom control cabinets for industrial enterprises at Techno-Center.
+- Work with flowmeters, pressure sensors, level measurement equipment, and smart electricity meters at EMIS.
+- Development of control and monitoring solutions using OWEN equipment.
+- Independently developed the EMIS-SYSTEM 500 software for level measurement applications, including control logic using Function Block Diagram (FBD), HMI screen design, and complete technical documentation.
+- Software development and technical support for smart electricity meters.
 - Technical communication with international equipment manufacturers, including firmware troubleshooting, device testing, and coordination of technical solutions.
 - Investigation of hardware-software integration issues and validation of device behavior using physical test equipment.
 
