@@ -2,11 +2,11 @@
 
 [Русская версия](README.ru.md)
 
-I am a software engineer with more than seven years of engineering experience across industrial automation, electrical engineering, control systems, and instrumentation.
+I am a software engineer with nearly eight years of experience in electrical engineering, industrial automation, control systems, and instrumentation.
 
-I develop Python applications for electricity meter configuration, device diagnostics, production workflows, and Telegram-based monitoring. My projects combine desktop interfaces, industrial communication protocols, databases, automated tests, and Windows release packaging.
+I develop Python applications for industrial device configuration, diagnostics, production and service workflows, and equipment monitoring. My projects combine desktop interfaces, industrial communication protocols, databases, automated testing, and software deployment.
 
-My engineering background helps me connect software behaviour with real equipment, investigate communication problems, and validate changes on physical devices.
+My engineering background helps me understand how physical equipment operates, investigate hardware-software integration issues, and develop reliable tools that can be tested on real devices.
 
 ## Professional Background
 
@@ -20,12 +20,14 @@ My industrial experience includes:
 - Development of control and monitoring solutions using OWEN equipment
 - Contribution to EMIS-SYSTEM 500, a commercial system designed to operate with level measurement equipment
 - Software development and technical support for smart electricity meters
+- Technical communication with international equipment manufacturers, including firmware troubleshooting, device testing, and coordination of technical solutions.
+- Investigation of hardware-software integration issues and validation of device behavior using physical test equipment.
 
 ## Featured Projects
 
 ### [HLS Key Control Utility](https://github.com/Sugo174/HLS-Key-Control-Utility)
 
-Desktop application for managing authentication passwords during electricity meter personalization and servicing.
+Desktop application for managing and verifying HLS authentication passwords during electricity meter personalization and servicing, with centralized storage and operation history.
 
 - Writes and verifies HLS passwords on meters over DLMS/COSEM using an optical probe.
 - Checks the meter's authentication state after an interrupted write or reset.
@@ -36,7 +38,7 @@ Desktop application for managing authentication passwords during electricity met
 
 ### [Smart Meter Configurator](https://github.com/Sugo174/Smart-electric-meter-configurator)
 
-Desktop application for configuring and diagnosing EMIS-ELECTRA 977 DC electricity meters over RS-485.
+Desktop application for configuring and diagnosing EMIS-ELECTRA 977 DC electricity meters over RS-485, designed to simplify device setup, verification, and servicing.
 
 - Automatically detects the Modbus address, baud rate, and parity.
 - Displays live measurements and lets operators configure daily tariff schedules and pulse output settings.
