@@ -1,8 +1,10 @@
-# Hi, I'm Boris Svistunov 👋
+# Hi, I'm Boris Svistunov
 
-I am a software engineer with more than seven years of experience in industrial automation, electrical engineering, control systems, and industrial instrumentation.
+I am a software engineer with more than seven years of engineering experience across industrial automation, electrical engineering, control systems, and instrumentation.
 
-I develop Python applications for smart meter configuration, equipment diagnostics, monitoring systems, and Telegram-based interfaces. I enjoy studying software engineering in depth and understanding how every part of a system works.
+I develop Python applications for electricity meter configuration, device diagnostics, production workflows, and Telegram-based monitoring. My projects combine desktop interfaces, industrial communication protocols, databases, automated tests, and Windows release packaging.
+
+My engineering background helps me connect software behaviour with real equipment, investigate communication problems, and validate changes on physical devices.
 
 ## Professional Background
 
